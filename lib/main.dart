@@ -11,14 +11,14 @@ class MyApp extends StatefulWidget {
 }
 
 class MyAppState extends State<MyApp> {
-  var questionIndex = 0;
+  var questionIndexx = 0;
 
   void answerQuestion() {
     setState(() {
-      questionIndex = questionIndex + 1;
+      questionIndexx = questionIndexx + 1;
     });
 
-    print(questionIndex);
+    print(questionIndexx);
   }
 
   @override
